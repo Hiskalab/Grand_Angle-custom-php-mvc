@@ -1,0 +1,46 @@
+/MVC
+│
+├─ /app
+│   ├─ /Core
+|   |   ├─ Controller.php
+|   |   ├─ Database.php
+|   |   └─ Routeur.php
+│   ├─ /Controllers
+|   |   ├─ PagesController.php
+|   |   ├─ AdminController.php
+|   |   └─ UsersController.php
+│   ├─ /Models
+|   |   ├─ /Managers
+|   |   |    └─ UsersManager.php
+|   |   └─ User.php
+│   └─ /Views
+|       ├─ /admin
+|       |    ├─ addUser.php
+|       |    ├─ deleteUser.php
+|       |    ├─ edit.php
+|       |    ├─ dashboard.php
+|       |    └─ users.php
+|       ├─ /layouts
+|       |    └─ main.php
+|       ├─ /pages
+|       |    ├─ error.php
+|       |    └─ home.php
+|       └─ /users
+|            ├─ dashboard.php
+|            └─ login.php
+│
+├─ /public
+│   └─ index.php
+│
+├─ /vendor
+│   ├─ /composer
+|   |   ├─ autoload_classmap.php
+|   |   ├─ autoload_namespaces.php
+|   |   ├─ autoload_psr4.php
+|   |   ├─ autoload_real.php
+|   |   ├─ autoload_static.php
+|   |   └─ ClassLoader.php
+│   └─ autoload.php
+├─ composer.json
+├─ hash.php
+└─ structure.txt
